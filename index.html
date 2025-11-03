@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Lan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class = "envelope-wrapper">
+            <div class = "envelope">
+                <div class = "letter">
+                    <div class = "text">
+                        <strong>Chào Thu Lan <span>&#128536;</span></strong>
+                        <p>
+                            Anh xin lỗi vì không thể
+                            làm một trang web đẹp hơn <span>&#128577;</span>.<br><br>
+
+                            Anh đã cố gắng làm cho em từ lâu rùi
+                            nhưng đến giờ anh mới có thời gian <span>&#129319;</span>.<br><br>
+
+                            Anh biết bây giờ là hơi muộn nhưng anh
+                            chúc Lan thi môn nào cũng có kết quả tốt nhé.<br><br>
+
+                            Cuối tuần này không mưa và em không bận thì chúng ta đi dạo nhé.
+
+                            <br><br>
+                            Kí tên: Lê Sơn Hải <span>&#129392;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector(".envelope-wrapper");
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        })
+    </script>
+    <div class="message">
+        Hãy bấm vào hình trái tim nhé Lan <span>&#128536;</span>
+    </div>
+</body>
+</html>
